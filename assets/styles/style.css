@@ -1,0 +1,118 @@
+* {
+    /* Deleting default formatting */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+section {
+    display: inline-block;
+}
+header {
+    /* position: fixed; */
+    /* top: 0; */
+    display: flex;
+    flex-basis: auto;
+    width: 100vw;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header nav {
+    flex-grow: 2;
+    text-align: right;
+}
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* .float-left {
+    float: left;
+    margin-right: 25px;
+} */
+
+/* .float-right {
+    float: right;
+    margin-left: 25px;
+} */
+main {
+    margin-top: 50px;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about-me {
+    height: 250px;
+    width: 25%;
+    border-right: 5px solid black;
+    text-align: center;
+}
+#about-content {
+    width: 70%;
+}
+#projects {
+    height:800px;
+    width: 25%;
+    border-right: 5px solid black;
+}
+#project-tiles {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#contact {
+    height: 250px;
+    width: 25%;
+    border-right: 5px solid black;
+}
+#contact-info {
+    width: 70%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    text-align: center;
+}
+#tile-1 {
+    width: 90%;
+    background-color: blue;
+    height: 50%;
+}
+#tile-2 {
+    width: 40%;
+    height: 20%;
+    background-color: brown;
+}
+#tile-3 {
+    width: 40%;
+    height: 20%;
+    background-color: rgb(99, 51, 51);
+}
+#tile-4 {
+    width: 40%;
+    height: 20%;
+    background-color: green;
+}
+#tile-5 {
+    width: 40%;
+    height: 20%;
+    background-color: tan;
+}
