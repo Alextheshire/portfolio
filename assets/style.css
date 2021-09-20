@@ -243,8 +243,14 @@ footer {
           width: 80px;
           height: 100px;
       }
+      #projects {
+          width: 20vw;
+      }
       #project-tiles p {
         font-size: 14px;
+      }
+      #contact {
+          width: 20vw;
       }
       #contact-info a {
           font-size: 8px;
