@@ -1,0 +1,5 @@
+Do something with resume link
+better background/header/color scheme
+placeholder images or SOMETHING for placeholder tiles
+make header links interactive
+left headers bigger? diff font?
