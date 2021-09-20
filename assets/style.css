@@ -84,6 +84,9 @@ main {
     flex-wrap: wrap;
 
 }
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .borderbreak {
     width: 100vw;
     height: 40px;
@@ -107,6 +110,7 @@ main {
     margin-top: 60px;
     margin-right: 25px;
     color: var(--accent);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #aboutimage {
     border: 2px solid var(--accent);
@@ -155,6 +159,7 @@ main {
 }
 #contact-info a:hover {
     text-decoration: underline;
+    font-size: 18px;
 }
 footer {
     text-align: center;
@@ -183,6 +188,7 @@ footer {
 }
 .tile-ph p {
     background: var(--accent);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #tile-1:hover {
     box-shadow: 3px 3px 3px rgb(24, 24, 24), -3px -3px 3px rgb(24, 24, 24);
@@ -192,3 +198,59 @@ footer {
     box-shadow: 3px 3px 3px rgb(24, 24, 24), -3px -3px 3px rgb(24, 24, 24);
     border: rgb(24, 24, 24);
 }
+@media screen and (max-width: 992px) {
+    header h1 {
+      font-size: 24px;
+    }
+    nav a {
+        font-size: 10px;
+    }
+    #about-content {
+        font-size: 12px;
+    }
+    #aboutimage {
+        width: 130px;
+        height: 153px;
+    }
+    #aboutimage img {
+        width: 120px;
+        height: 150px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 16px;
+      }
+      nav a {
+          font-size: 11px;
+      }
+      main h2 {
+          font-size: 16px;
+          margin-right: 10px;
+      }
+      #about-me {
+          width: 20vw;
+      }
+      #about-content {
+          font-size: 8px;
+      }
+      #aboutimage {
+          width: 85px;
+          height: 105px;
+          margin-top: 50px;
+      }
+      #aboutimage img {
+          width: 80px;
+          height: 100px;
+      }
+      #project-tiles p {
+        font-size: 14px;
+      }
+      #contact-info a {
+          font-size: 8px;
+      }
+      footer h3 {
+          font-size: 12px;
+      }
+    }
+  }
