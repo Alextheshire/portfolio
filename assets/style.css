@@ -1,7 +1,9 @@
 :root {
+    /* defining main color scheme */
     --accent: #F2AA4CFF;
     --main: #101820FF
 }
+
 * {
     /* Deleting default formatting */
     box-sizing: border-box;
@@ -11,17 +13,18 @@
 }
 
 a {
+    /* link formatting */
     text-decoration: none;
     color: var(--main);
     background: (var(--accent));
 
 }
+
 section {
     display: inline-block;
 }
+
 header {
-    /* position: fixed; */
-    /* top: 0; */
     display: flex;
     flex-basis: auto;
     width: 100vw;
@@ -29,28 +32,33 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 header nav {
     flex-grow: 2;
     text-align: right;
     background: var(--accent);
 
 }
+
 header h1 {
     display: inline-block;
     font-size: 48px;
     background: var(--accent);
     color: var(--main);
 }
+
 nav li {
     display: inline-block;
     margin-left: 25px;
     background: (var(--accent));
 
 }
+
 nav ul {
     background: (var(--accent));
 
 }
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -59,38 +67,35 @@ nav {
     background: (var(--accent));
 
 }
+
 #subheader {
+    /* bg image under header */
     width: 100vw;
     height: 300px;
     background-image: url(./images/banner2.jpg);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/* .float-left {
-    float: left;
-    margin-right: 25px;
-} */
 
-/* .float-right {
-    float: right;
-    margin-left: 25px;
-} */
 main {
     margin-top: 50px;
-    /* width: 100%; */
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
 
 }
+
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.borderbreak {
+
+.border-break {
+    /* page break class to break border lines between section headers and content */
     width: 100vw;
     height: 40px;
 }
+
 #about-me {
     height: 250px;
     width: 25%;
@@ -98,39 +103,47 @@ h2 {
     text-align: center;
     color: var(--accent);
 }
+
 #about-me h2 {
     margin-top: 50px;
 }
+
 #about-content {
     width: 70%;
     margin-left: 25px;
     display: flex;
 }
+
 #about-content p {
     margin-top: 60px;
     margin-right: 25px;
     color: var(--accent);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#aboutimage {
+
+#about-image {
     border: 2px solid var(--accent);
 }
+
 #projects {
     height:800px;
     width: 25%;
     border-right: 2px solid var(--accent);
     text-align: center;
 }
+
 #projects h2 {
     margin-top: 400px;
     color: var(--accent);
 }
+
 #project-tiles {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 #project-tiles p {
     text-align: center;
     margin-top: 50px;
@@ -138,35 +151,44 @@ h2 {
     font-size: 24px;
     font-weight: bold;
 }
+
 #contact {
     height: 250px;
     width: 25%;
     border-right: 2px solid var(--accent);
     text-align: center;
 }
+
 #contact h2 {
     margin-top: 100px;
     color: var(--accent);
 }
+
 #contact-info {
     width: 70%;
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
+
 #contact-info a {
     color: var(--accent);
 }
+
+/* hover effects for contact links */
 #contact-info a:hover {
     text-decoration: underline;
     font-size: 18px;
 }
+
 footer {
     text-align: center;
     padding-top: 25px;
     color: var(--accent);
 }
+
 #tile-1 {
+    /* main project tile */
     width: 90%;
     background-image: linear-gradient(rgb(77, 77, 77), rgb(26, 26, 26)) ;
     height: 50%;
@@ -175,29 +197,38 @@ footer {
     border: 2px solid black;
     border-radius: 10px;
 }
+
 #tile-1 img {
     max-width: 100%;
     max-height: 100%;
 }
+
 .tile-ph {
+    /* placeholder tile class */
     width: 40%;
     height: 20%;
     background-color: var(--accent);
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .tile-ph p {
     background: var(--accent);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* hover effects for project tiles */
 #tile-1:hover {
     box-shadow: 3px 3px 3px rgb(24, 24, 24), -3px -3px 3px rgb(24, 24, 24);
     border: rgb(24, 24, 24);
 }
+
 .tile-ph:hover {
     box-shadow: 3px 3px 3px rgb(24, 24, 24), -3px -3px 3px rgb(24, 24, 24);
     border: rgb(24, 24, 24);
 }
+
+/* custom resizing for tablet screens */
 @media screen and (max-width: 992px) {
     header h1 {
       font-size: 24px;
@@ -217,6 +248,8 @@ footer {
         height: 150px;
     }
   }
+
+  /* custom reformatting for phone screens */
   @media screen and (max-width: 768px) {
     header h1 {
         font-size: 16px;
@@ -258,5 +291,4 @@ footer {
       footer h3 {
           font-size: 12px;
       }
-    }
   }
