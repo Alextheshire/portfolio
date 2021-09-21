@@ -239,11 +239,11 @@ footer {
     #about-content {
         font-size: 12px;
     }
-    #aboutimage {
+    #about-image {
         width: 130px;
         height: 153px;
     }
-    #aboutimage img {
+    #about-image img {
         width: 120px;
         height: 150px;
     }
@@ -267,12 +267,12 @@ footer {
       #about-content {
           font-size: 8px;
       }
-      #aboutimage {
+      #about-image {
           width: 85px;
           height: 105px;
           margin-top: 50px;
       }
-      #aboutimage img {
+      #about-image img {
           width: 80px;
           height: 100px;
       }
