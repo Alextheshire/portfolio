@@ -198,10 +198,10 @@ footer {
     color: var(--accent);
 }
 
-#tile-1 {
+#project-1 {
     /* main project tile */
-    width: 90%;
-    background-image: url("./images/site1.png");
+    width: 60%;
+    background-image: url("./images/screencapture-mental-health-tracker-dbt-herokuapp-profile-2021-11-09-09_41_16.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: #334443;
@@ -213,7 +213,7 @@ footer {
     border-radius: 10px;
 }
 
-#weather-dashboard {
+#project-2 {
     width: 40%;
     height: 300px;
     background-image: url("./images/weatherdashboard.png");
@@ -222,10 +222,10 @@ footer {
     background-size: contain;
 }
 
-#password-generator {
+#project-3 {
     width: 40%;
     height: 300px;
-    background-image: url("./images/passgen.png");
+    background-image: url("./images/site1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
